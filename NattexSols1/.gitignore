@@ -21,3 +21,19 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+# Ignore everything outside the current directory
+../*
+
+# Common Laravel exclusions
+/vendor
+/node_modules
+.env
+/public/storage
+/storage/*.key
+.idea
+*.log
+*.zip
+*.rar
+*.tar.gz
+*.DS_Store
+*.vscode
